@@ -1,0 +1,35 @@
+@import url("reset.css");
+body {
+  background: #F5F5F5;
+  color: #000000;
+  font-family: Rubik, serif;
+}
+
+.border {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1292px;
+  padding: 0 16px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 64px;
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
+
+@media (max-width: 767.98px) {
+  .page {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+img {
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=style.css.map */
