@@ -1,9 +1,12 @@
 import {Link} from "react-router-dom";
-import styles from './styles/Footer.module.css';
+
+import { IoLogoFacebook } from "react-icons/io5";
+import { RiInstagramFill } from "react-icons/ri";
+
+import styles from './footerStyle/footer.module.scss';
 
 import logo from "../assets/img/logo.svg";
-import icon_facebook from "../assets/icon/icon-facebook.svg";
-import icon_instagram from "../assets/icon/icon-instagram.svg";
+
 
 const Footer = () => {
     return (
@@ -25,10 +28,10 @@ const Footer = () => {
                     <a href="mailto:support@vse_market.ua" className={styles.mail}>support@vse_market.ua</a>
                     <div className={styles.contacts__social}>
                         <a target="_blank" href="https://www.facebook.com" rel="noreferrer">
-                            <img src={icon_facebook} alt="Facebook"/>
+                            <IoLogoFacebook size={40} className={styles.social_icon}/>
                         </a>
                         <a target="_blank" href="https://www.instagram.com" rel="noreferrer">
-                            <img src={icon_instagram} alt="Instagram"/>
+                            <RiInstagramFill size={40} className={styles.social_icon}/>
                         </a>
                     </div>
                 </div>

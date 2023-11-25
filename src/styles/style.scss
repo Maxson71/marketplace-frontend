@@ -35,3 +35,15 @@ img {
   pointer-events: none;
 }
 
+::-webkit-scrollbar {
+  width: 15px
+}
+
+::-webkit-scrollbar-track {
+  background-color: $color-gray-1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $color-gray-2;
+  border: 3px solid $color-gray-1;
+  border-radius: 6px;
+}
