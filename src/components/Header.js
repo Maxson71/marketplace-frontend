@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/Logo.png'
+import logo from "../assets/img/logo.svg";
 import { BiSolidCategoryAlt, BiDownArrow } from "react-icons/bi";
 import { FaHeart, FaUser } from "react-icons/fa";
 import { TbMessages } from "react-icons/tb";
@@ -9,7 +9,7 @@ import './headerStyle/header.sass'
 
 const Header = () => {
   return (
-    <header>
+    <div className='header-block'>
       <div className='header'>
         <div className='logo'>
             <img src={logo} alt='All MArket logo' height={50}/>
@@ -38,7 +38,7 @@ const Header = () => {
             <FaUser size={25} className="icon"/>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

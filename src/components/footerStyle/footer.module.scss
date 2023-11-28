@@ -1,0 +1,59 @@
+@import "../../styles/colors.scss";
+
+.footer{
+  padding: 0 16px 60px 16px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 150px 50px 90px;
+  justify-content: space-between;
+  font-size: 19px;
+  border-radius: 30px;
+  background-color: $color-white;
+  flex-wrap: wrap;
+  row-gap: 50px;
+
+  .logo {
+    margin-right: 65px;
+  }
+
+  .content {
+    margin-right: 45px;
+  }
+
+  .contacts {
+    margin-right: 70px;
+  }
+
+  .content, .contacts, .copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .mail {
+      color: $color-green-5;
+      font-weight: 300;
+    }
+
+    .social {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+
+      .social_icon {
+        color: $color-green-5;
+      }
+    }
+
+    .copyright {
+      font-weight: 300;
+    }
+
+  }
+
+  .logo {
+    width: 128px;
+  }
+}
