@@ -17,10 +17,9 @@ body {
 .page {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 85px;
   padding: 90px 16px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 @media (max-width: 767.98px) {
@@ -33,6 +32,7 @@ body {
 img {
   object-fit: cover;
   pointer-events: none;
+  user-select: none;
 }
 
 ::-webkit-scrollbar {

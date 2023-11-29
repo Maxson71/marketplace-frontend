@@ -1,9 +1,10 @@
 import styles from "./styles/Home.module.scss";
+import Card from "../components/Card";
 
 const Home = () => {
     return (
         <main className="border page">
-            Home page
+            <Card />
         </main>
     )
 }

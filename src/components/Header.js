@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/images/logo.svg";
 import { BiSolidCategoryAlt, BiDownArrow } from "react-icons/bi";
 import { FaHeart, FaUser } from "react-icons/fa";
 import { TbMessages } from "react-icons/tb";

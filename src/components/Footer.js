@@ -5,7 +5,7 @@ import { RiInstagramFill } from "react-icons/ri";
 
 import styles from './footerStyle/footer.module.scss';
 
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/images/logo.svg";
 
 
 const Footer = () => {
